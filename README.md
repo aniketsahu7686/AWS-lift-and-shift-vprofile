@@ -47,16 +47,16 @@ Previously hosted locally using Vagrant virtual machines, the application stack 
 
 -------------------------------- ☁️AWS Cloud Architecture (Post-Migration) -----------------------------------------------
 
-✅ AWS Services Used
-EC2	: Hosts Tomcat, MySQL, Memcached, and RabbitMQ
-Amazon S3	: Stores application artifacts (WAR files)
-Elastic Load Balancer (ALB)	: Distributes traffic to Tomcat instances
-Auto Scaling Group	: Scales Tomcat instances based on load
-Amazon Route 53	: Provides private DNS for backend services
-AWS Certificate Manager (ACM)	: Enables HTTPS with SSL certificates
-IAM :	Manages user access and roles
-EBS :	Persistent storage for each EC2 instance
-Key Pairs	: Secure access to EC2 instances
+AWS Services Used
+1. EC2	: Hosts Tomcat, MySQL, Memcached, and RabbitMQ
+2. Amazon S3	: Stores application artifacts (WAR files)
+3. Elastic Load Balancer (ALB)	: Distributes traffic to Tomcat instances
+4. Auto Scaling Group	: Scales Tomcat instances based on load
+5. Amazon Route 53	: Provides private DNS for backend services
+6. AWS Certificate Manager (ACM)	: Enables HTTPS with SSL certificates
+7. IAM :	Manages user access and roles
+8. EBS :	Persistent storage for each EC2 instance
+9. Key Pairs	: Secure access to EC2 instances
 
 
 

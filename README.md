@@ -1,12 +1,14 @@
 # AWS-lift-and-shift-vprofile
 
 
------------------------------------------------------------------📌 Project Overview----------------------------------------------------------------------
+----------------------------------------------------------------- 📌Project Overview ----------------------------------------------------------------------
 This is a cloud migration project where we implement a Lift and Shift strategy to migrate a multi-tier web application — vProfile — from a virtualized local environment to the AWS Cloud.
 
 The goal is to simulate how real-world legacy workloads are moved from physical or virtual data centers to the cloud without changing the core architecture or application code.
 
-🎯 Objectives
+
+
+----------------------------------------------------------------- 🎯Objectives ----------------------------------------------------------------------
 ✅ Understand and implement the Lift and Shift cloud migration strategy
 
 ✅ Migrate vProfile, a Java-based web application, to AWS
@@ -83,3 +85,4 @@ Load balancer allows only HTTPS (443) inbound
 Tomcat instances allow only port 8080 from ALB
 
 Backend services allow access only from Tomcat instances
+

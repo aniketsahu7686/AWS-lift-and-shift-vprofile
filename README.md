@@ -1,7 +1,7 @@
 # AWS-lift-and-shift-vprofile
 
 
---------------------------------------------------------------------📌 Project Overview----------------------------------------------------------------------------
+-----------------------------------------------------------------📌 Project Overview----------------------------------------------------------------------
 This is a cloud migration project where we implement a Lift and Shift strategy to migrate a multi-tier web application — vProfile — from a virtualized local environment to the AWS Cloud.
 
 The goal is to simulate how real-world legacy workloads are moved from physical or virtual data centers to the cloud without changing the core architecture or application code.

@@ -7,6 +7,9 @@ This is a cloud migration project where we implement a Lift and Shift strategy t
 The goal is to simulate how real-world legacy workloads are moved from physical or virtual data centers to the cloud without changing the core architecture or application code.
 
 
+
+
+
 ---------------------------------------------- 🎯Objectives -----------------------------------------------------------------
 ✅ Understand and implement the Lift and Shift cloud migration strategy
 
@@ -19,6 +22,9 @@ The goal is to simulate how real-world legacy workloads are moved from physical 
 ✅ Use AWS services for load balancing, auto scaling, DNS, and storage
 
 ✅ Implement private DNS resolution, secure HTTPS access, and cost-efficient architecture
+
+
+
 
 
 -------------------------------------- 🧱Original Architecture (Before Migration) -----------------------------------------
@@ -36,6 +42,9 @@ Previously hosted locally using Vagrant virtual machines, the application stack 
 📨 RabbitMQ – Messaging Queue
 
 
+
+
+
 -------------------------------- ☁️AWS Cloud Architecture (Post-Migration) -----------------------------------------------
 
 ✅ AWS Services Used
@@ -48,6 +57,9 @@ AWS Certificate Manager (ACM)	: Enables HTTPS with SSL certificates
 IAM :	Manages user access and roles
 EBS :	Persistent storage for each EC2 instance
 Key Pairs	: Secure access to EC2 instances
+
+
+
 
 ----------------------------------------- 📡Architecture Flow -----------------------------------------------------------
 
@@ -69,6 +81,10 @@ Tomcat instances interact with MySQL, RabbitMQ, and Memcached via private DNS us
 🧭 Private DNS Resolution:
 Private IPs of backend services are mapped to DNS entries like mysql.vprofile.internal.
 
+
+
+
+
 -------------------------------------- 📦Artifact Deployment ----------------------------------------------------------
 
 🛠️ Application is built locally
@@ -76,6 +92,10 @@ Private IPs of backend services are mapped to DNS entries like mysql.vprofile.in
 ☁️ WAR file is uploaded to Amazon S3
 
 📥 Tomcat EC2 instances download and deploy the WAR file from S3 automatically
+
+
+
+
 
 ------------------------------------ 🔐Security Architecture --------------------------------------------------------
 

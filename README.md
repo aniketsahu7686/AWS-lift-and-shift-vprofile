@@ -1,4 +1,4 @@
-# AWS-lift-and-shift-vprofile
+# AWS-lift-and-shift-vprofile using IAAS
 
 
 ------------------------------------------------- 📌Project Overview --------------------------------------------------------
